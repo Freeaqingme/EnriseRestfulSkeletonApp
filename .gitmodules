@@ -25,3 +25,6 @@
 [submodule "dev/puppet/modules/submodule/Enrise-ZendServer"]
 	path = dev/puppet/modules/submodule/Enrise-ZendServer
 	url = git://github.com/Enrise/Puppet-zendserver.git
+[submodule "dev/puppet/modules/submodule/Puppetlabs-Mongodb"]
+	path = dev/puppet/modules/submodule/Puppetlabs-Mongodb
+	url = git://github.com/puppetlabs/puppetlabs-mongodb.git

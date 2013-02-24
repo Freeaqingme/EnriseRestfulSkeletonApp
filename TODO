@@ -1,22 +1,8 @@
 General:
-* Extract to houdini module
+* Move all CSS to .css files
+
 
 Workbench:
-* Response times
-* No redirects
 * Configure timeout
 * Auth
 * Format response
-
-
-
-<mtdowling> As for retrieving response time:
-<mtdowling> You can use the getInfo method of the Response object
-<mtdowling> this contains stuff from http://www.php.net/manual/en/function.curl-getinfo.php
-<Freeaqingme> oh, sweet
-<Freeaqingme> I had 1 more question; is there any way to disable the redirects?
-<mtdowling> Yes
-<mtdowling> one sec
-<mtdowling> Client constructors have a config array as the second argument. You can add 'redirect.disable' => true to this config array to disable redirects in Guzzle.
-<Freeaqingme> awesome, tnx
-<mtdowling> There's a constant for that too: Guzzle\Http\Client::DISABLE_REDIRECTS

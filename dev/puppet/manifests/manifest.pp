@@ -9,6 +9,9 @@ node default {
         path => [ '/bin/', '/sbin/' , '/usr/bin/', '/usr/sbin/' ]
     }
 
+    class { "mongodb":
+    }
+
     class { "zendserver":
         version       => 6.0,
         php_version   => 5.4,
@@ -40,7 +43,7 @@ node default {
     }
 
     package { [ "screen", "vim", "bash-completion", "elinks", "lynx", "nano",
-                "sl", "tree", "git", "curl", "php-5.4-curl-zend-server",  ] :
+                "sl", "tree", "git", "curl", "php-5.4-curl-zend-server", "php-5.4-mongo-zend-server" ] :
         ensure => installed,
         require => Class['zendserver'],
     }
