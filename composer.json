@@ -13,16 +13,16 @@
         "enrise/restful-api": "dev-develop",
         "freeaqingme/houdini": "dev-develop",
 
-        "freeaqingme/houdini-workbench": "dev-develop",
-        "freeaqingme/houdini-apiinfo": "dev-develop"
+        "freeaqingme/houdini-apiInfo": "dev-develop",
+        "freeaqingme/houdini-workbench": "dev-develop"
     },
     "repositories": [
         { "type": "vcs", "url": "https://github.com/Freeaqingme/Houdini" },
         { "type": "vcs", "url": "https://github.com/Enrise/EnriseRestfulApi" },
         { "type": "composer", "url": "https://raw.github.com/superdweebie/dojo/master" },
 
-        { "type": "vcs", "url": "https://github.com/Freeaqingme/HoudiniWorkbench" },
-        { "type": "vcs", "url": "https://github.com/Freeaqingme/HoudiniApiInfo" }
+        { "type": "vcs", "url": "https://github.com/Freeaqingme/HoudiniApiInfo" },
+        { "type": "vcs", "url": "https://github.com/Freeaqingme/HoudiniWorkbench" }
 
 
     ]
