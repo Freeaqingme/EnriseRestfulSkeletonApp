@@ -1,3 +1,27 @@
-[submodule "vendor/ZF2"]
-	path = vendor/ZF2
-	url = https://github.com/zendframework/zf2.git
+[submodule "dev/puppet/modules/submodule/Puppi"]
+	path = dev/puppet/modules/submodule/Puppi
+	url = git://github.com/example42/puppi.git
+[submodule "dev/puppet/modules/submodule/Example42-php"]
+	path = dev/puppet/modules/submodule/Example42-php
+	url = git://github.com/example42/puppet-php.git
+[submodule "dev/puppet/modules/submodule/Example42-modules"]
+	path = dev/puppet/modules/submodule/Example42-modules
+	url = git://github.com/Enrise/puppet-modules.git
+[submodule "dev/puppet/modules/submodule/Example42-apt"]
+	path = dev/puppet/modules/submodule/Example42-apt
+	url = git://github.com/example42/puppet-apt.git
+[submodule "dev/puppet/modules/submodule/Enrise-Mariadb"]
+	path = dev/puppet/modules/submodule/Enrise-Mariadb
+	url = git://github.com:Enrise/Puppet-mariadb.git
+[submodule "dev/puppet/modules/submodule/Example42-Mysql"]
+	path = dev/puppet/modules/submodule/Example42-Mysql
+	url = git://github.com/example42/puppet-mysql.git
+[submodule "dev/puppet/modules/submodule/Example42-Ntp"]
+	path = dev/puppet/modules/submodule/Example42-Ntp
+	url = git://github.com/example42/puppet-ntp.git
+[submodule "dev/puppet/modules/submodule/Example42-Apache"]
+	path = dev/puppet/modules/submodule/Example42-Apache
+	url = git://github.com/example42/puppet-apache.git
+[submodule "dev/puppet/modules/submodule/Enrise-ZendServer"]
+	path = dev/puppet/modules/submodule/Enrise-ZendServer
+	url = git://github.com/Enrise/Puppet-zendserver.git

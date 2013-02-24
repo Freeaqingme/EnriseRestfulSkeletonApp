@@ -9,6 +9,18 @@
 
 return array(
     'router' => array(
+        'apiRoutes' => array(
+            /*
+             * Ideally This block should simply be under 'routes'. But it seems to be impossible to inject an
+             * SM otherwise into the route's factory methods.
+             */
+            'routeName' => array(
+                'route' => '/api',
+                'defaults' => array(
+                    'controller' => 'Application\Controller\Api',
+                )
+            )
+        ),
         'routes' => array(
             'home' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
@@ -69,7 +81,10 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Application\Controller\Index' => 'Application\Controller\IndexController'
+            'Application\Controller\Index' => 'Application\Controller\IndexController',
+            'Application\Controller\Api' => 'Application\Controller\Api',
+            'Application\Controller\Api\Website' => 'Application\Controller\Api\Website',
+            'Application\Controller\Api\Website\User' => 'Application\Controller\Api\Website\User',
         ),
     ),
     'view_manager' => array(
