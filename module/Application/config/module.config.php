@@ -8,6 +8,17 @@
  */
 
 return array(
+    'houdini' => array(
+        'workbench' => array(
+            'hosts' => array(
+                array(
+                    'hostname' => 'houdini.dev',
+                    'scheme'   => 'http',
+                    'default'  => true,
+                ),
+            )
+        )
+    ),
     'router' => array(
         'apiRoutes' => array(
             /*

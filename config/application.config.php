@@ -4,9 +4,9 @@ return array(
     'modules' => array(
         'Application',
         'Enrise\RestfulApi',
-//        'ApiInfo',
-//        'RestWorkbench',
-
+        'Houdini\ApiInfo',
+        'Houdini\Workbench',
+        'Houdini',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
